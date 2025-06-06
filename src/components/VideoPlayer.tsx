@@ -15,7 +15,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(autoplay);
-  const [isMuted, setIsMuted] = useState(true);
+  const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {
     if (videoRef.current && autoplay) {
@@ -48,7 +48,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
         className="w-full h-auto"
         src={src}
         autoPlay={autoplay}
-        muted={isMuted}
+        muted={false}
         loop
         controls={false}
         onPlay={() => setIsPlaying(true)}
