@@ -39,10 +39,8 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 p-6">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-white mb-2">Видеоплеер</h1>
-          <p className="text-gray-300">
-            Смотрите и управляйте вашими любимыми видео
-          </p>
+          <h1 className="text-4xl font-bold text-white mb-2"></h1>
+          <p className="text-gray-300"></p>
         </header>
 
         <div className="flex flex-col lg:flex-row gap-8 items-start">
@@ -64,7 +62,7 @@ const Index = () => {
         </div>
 
         <footer className="text-center mt-12 text-gray-400">
-          <p>🚀 Создано с помощью Поехали!</p>
+          <p></p>
         </footer>
       </div>
     </div>
